@@ -1,0 +1,211 @@
+@relation '??????V3-weka.filters.unsupervised.attribute.Remove-R2,4-6,8-9,11,13,15-16,20-25,27-28,30'
+
+@attribute ﻿gender {male,female}
+@attribute region {Central,Eastern,Western,Northeastern,Southern,Northern}
+@attribute 'What form of education did you come in?' {Portfolio,tcas,'area quota',Admissions,'Direct examination','GoodGrade quota',Get-pat,O-net}
+@attribute 'GPA cumulative high school, vocational certificate' {Excellent,Good,Unsatisfy,Fair}
+@attribute Englist {Unsatisfy,Good,Fair,Excellent}
+@attribute 'What is your opinion on learning information technology?' {Easy,Normal,'Too Hard'}
+@attribute 'Able to do homework and classroom work by yourself' {'Always try',Sometimes,'Always peel friends'}
+@attribute 'Have the courage to ask a teacher about a question' {Sometimes,Dare,'Not brave'}
+@attribute 'There is a concern about being addicted to F in various subjects.' {Never,Sometimes,'Every time'}
+@attribute 'Test preparation' {'Read the book 1 week','Read book alone','Tutoring with friends','Not prepared','Read the book 1 night'}
+@attribute 'Gaming behavior' {medium,'Do not play',high}
+@attribute 'GPA currently being studied' {Appropriate,Inappropriate}
+
+@data
+male,Central,Portfolio,Excellent,Unsatisfy,Easy,'Always try',Sometimes,Never,'Read the book 1 week',medium,Appropriate
+male,Central,tcas,Good,Good,Normal,Sometimes,Sometimes,Sometimes,'Read book alone',medium,Inappropriate
+female,Eastern,'area quota',Excellent,Unsatisfy,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Eastern,'area quota',Unsatisfy,Unsatisfy,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Eastern,'area quota',Excellent,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+male,Central,Admissions,Excellent,Good,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+female,Eastern,'area quota',Excellent,Unsatisfy,Normal,'Always try',Sometimes,'Every time','Tutoring with friends',medium,Appropriate
+male,Central,Portfolio,Fair,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read book alone',medium,Appropriate
+female,Eastern,Portfolio,Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Eastern,Admissions,Excellent,Fair,Normal,Sometimes,Dare,Sometimes,'Read the book 1 week',medium,Inappropriate
+male,Central,'Direct examination',Good,Unsatisfy,Normal,'Always peel friends',Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Central,'area quota',Excellent,Good,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends','Do not play',Appropriate
+female,Central,'Direct examination',Excellent,Excellent,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Central,'GoodGrade quota',Excellent,Excellent,Normal,Sometimes,Sometimes,'Every time','Not prepared',medium,Inappropriate
+female,Central,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends','Do not play',Appropriate
+female,Central,Admissions,Excellent,Good,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 week',medium,Appropriate
+male,Central,Admissions,Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Appropriate
+male,Central,'area quota',Good,Unsatisfy,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Eastern,Admissions,Excellent,Fair,Normal,'Always try',Dare,Never,'Tutoring with friends',medium,Appropriate
+female,Central,'area quota',Fair,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Western,'Direct examination',Excellent,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+female,Eastern,'GoodGrade quota',Excellent,Good,Normal,Sometimes,Dare,Sometimes,'Read the book 1 week','Do not play',Appropriate
+male,Eastern,tcas,Good,Good,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Eastern,'GoodGrade quota',Excellent,Unsatisfy,Normal,'Always peel friends',Sometimes,'Every time','Read the book 1 night',medium,Inappropriate
+male,Central,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends','Do not play',Appropriate
+female,Northeastern,tcas,Excellent,Unsatisfy,'Too Hard',Sometimes,'Not brave','Every time','Tutoring with friends',medium,Inappropriate
+female,Central,'area quota',Good,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+female,Central,Admissions,Excellent,Good,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends','Do not play',Inappropriate
+male,Eastern,'area quota',Good,Fair,Normal,'Always try',Dare,Sometimes,'Read the book 1 night',medium,Appropriate
+male,Central,'Direct examination',Good,Unsatisfy,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Central,Portfolio,Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Inappropriate
+male,Southern,'GoodGrade quota',Excellent,Unsatisfy,Normal,Sometimes,'Not brave',Sometimes,'Read the book 1 night',medium,Appropriate
+female,Eastern,Admissions,Excellent,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+female,Central,tcas,Good,Fair,'Too Hard','Always peel friends',Sometimes,'Every time','Tutoring with friends',medium,Appropriate
+male,Eastern,'Direct examination',Good,Good,Normal,Sometimes,Sometimes,Sometimes,'Read book alone',medium,Appropriate
+female,Northern,'GoodGrade quota',Excellent,Unsatisfy,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+male,Eastern,Portfolio,Excellent,Good,Easy,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Northeastern,Portfolio,Fair,Good,Easy,'Always try',Dare,Never,'Tutoring with friends',medium,Appropriate
+male,Central,tcas,Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Central,'GoodGrade quota',Good,Fair,'Too Hard',Sometimes,Sometimes,'Every time','Tutoring with friends','Do not play',Inappropriate
+male,Central,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Appropriate
+male,Southern,'Direct examination',Fair,Fair,Normal,Sometimes,Sometimes,'Every time','Read book alone',medium,Appropriate
+female,Central,Get-pat,Good,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends','Do not play',Inappropriate
+male,Central,Portfolio,Fair,Good,Normal,Sometimes,Dare,'Every time','Tutoring with friends',medium,Inappropriate
+female,Central,?,Excellent,Unsatisfy,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+male,Eastern,'Direct examination',Unsatisfy,Fair,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Central,O-net,Good,Fair,Normal,'Always try',Sometimes,Never,'Read the book 1 night',medium,Appropriate
+female,Central,Portfolio,Excellent,Good,Normal,Sometimes,'Not brave',Sometimes,'Tutoring with friends','Do not play',Appropriate
+female,Central,'Direct examination',Excellent,Excellent,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Northeastern,Get-pat,Excellent,Fair,Easy,'Always try',Dare,Sometimes,'Read the book 1 night',medium,Appropriate
+female,Central,'area quota',Good,Unsatisfy,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+male,Central,Portfolio,Excellent,Unsatisfy,Easy,Sometimes,Dare,Never,'Tutoring with friends',medium,Appropriate
+male,Northern,'GoodGrade quota',Excellent,Good,Normal,'Always try',Sometimes,Sometimes,'Read the book 1 week',medium,Appropriate
+male,Central,Portfolio,Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Southern,Portfolio,Excellent,Unsatisfy,Normal,Sometimes,'Not brave',Sometimes,'Read the book 1 night',high,Appropriate
+female,Eastern,'area quota',Excellent,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Appropriate
+female,Central,'Direct examination',Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 week',high,Appropriate
+male,Central,Admissions,Excellent,Unsatisfy,Normal,'Always try',Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Eastern,tcas,Excellent,Fair,Normal,'Always try',Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Central,tcas,Fair,Fair,Normal,Sometimes,'Not brave',Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Central,'Direct examination',Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Central,'area quota',Excellent,Good,Normal,'Always try',Sometimes,Sometimes,'Read the book 1 week',medium,Appropriate
+male,Central,'Direct examination',Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 week',medium,Appropriate
+female,Northeastern,'Direct examination',Good,Fair,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Appropriate
+female,Central,'Direct examination',Excellent,Good,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Appropriate
+male,Central,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Appropriate
+male,Eastern,Admissions,Excellent,Fair,Normal,'Always try',Dare,Never,'Tutoring with friends',medium,Appropriate
+male,Northern,Admissions,Excellent,Fair,Normal,Sometimes,Dare,Sometimes,'Read the book 1 week','Do not play',Appropriate
+female,Central,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,Sometimes,'Every time','Read the book 1 week','Do not play',Inappropriate
+male,Central,Portfolio,Fair,Unsatisfy,Normal,'Always peel friends','Not brave',Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Central,Portfolio,Fair,Fair,Normal,'Always try',Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+male,Eastern,'area quota',Fair,Fair,Normal,'Always peel friends',Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Eastern,'Direct examination',Excellent,Good,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Eastern,'Direct examination',Excellent,Good,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Central,Admissions,Excellent,Good,Normal,Sometimes,Dare,'Every time','Tutoring with friends','Do not play',Appropriate
+female,Eastern,'GoodGrade quota',Excellent,Unsatisfy,Normal,Sometimes,Dare,Sometimes,'Read the book 1 night',medium,Appropriate
+male,Northern,'Direct examination',Excellent,Fair,Easy,Sometimes,Sometimes,'Every time','Read the book 1 week',medium,Appropriate
+female,Central,Admissions,Excellent,Unsatisfy,Normal,Sometimes,'Not brave','Every time','Read the book 1 week',medium,Inappropriate
+male,Central,tcas,Excellent,Good,Normal,'Always try',Dare,Never,'Read book alone',medium,Appropriate
+male,Central,'GoodGrade quota',Good,Unsatisfy,'Too Hard',Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Eastern,'area quota',Excellent,Good,Easy,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+female,Eastern,'area quota',Excellent,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+female,Eastern,tcas,Excellent,Good,Normal,Sometimes,'Not brave',Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Central,'GoodGrade quota',Excellent,Good,Normal,'Always try',Sometimes,Sometimes,'Read the book 1 week',medium,Appropriate
+male,Central,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Appropriate
+male,Northern,tcas,Excellent,Fair,Normal,'Always try',Sometimes,Sometimes,'Read book alone',medium,Appropriate
+female,Central,Portfolio,Good,Unsatisfy,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+female,Eastern,tcas,Fair,Fair,Normal,Sometimes,Dare,Never,'Read book alone',medium,Appropriate
+male,Central,tcas,Good,Good,Normal,'Always try',Sometimes,'Every time','Read the book 1 week',medium,Inappropriate
+female,Eastern,'area quota',Excellent,Good,Normal,'Always try',Dare,'Every time','Tutoring with friends','Do not play',Appropriate
+male,Central,O-net,Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read book alone',medium,Appropriate
+male,Eastern,tcas,Good,Good,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Eastern,'area quota',Good,Fair,Normal,'Always try',Sometimes,Sometimes,'Read the book 1 week',medium,Inappropriate
+male,Eastern,'area quota',Good,Good,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Central,'Direct examination',Good,Unsatisfy,Normal,Sometimes,?,?,'Tutoring with friends',medium,Inappropriate
+female,Northeastern,Portfolio,Excellent,Fair,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Central,?,Fair,Unsatisfy,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Inappropriate
+male,Central,'GoodGrade quota',Excellent,Good,Normal,Sometimes,Dare,Sometimes,'Read the book 1 week',medium,Appropriate
+female,Central,tcas,Good,Fair,Normal,Sometimes,Dare,'Every time','Tutoring with friends',medium,Inappropriate
+male,Eastern,'Direct examination',Good,Good,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Central,'area quota',Good,Unsatisfy,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Eastern,'GoodGrade quota',Excellent,Unsatisfy,Normal,'Always try',Sometimes,'Every time','Read book alone',medium,Appropriate
+female,Eastern,'area quota',Excellent,Fair,Normal,Sometimes,Sometimes,'Every time','Read the book 1 night','Do not play',Inappropriate
+female,Eastern,'area quota',Excellent,Good,Normal,Sometimes,Dare,Sometimes,'Read the book 1 night',medium,Inappropriate
+male,Central,Portfolio,Unsatisfy,Good,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',high,Appropriate
+female,Southern,tcas,Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends','Do not play',Appropriate
+male,Northeastern,Portfolio,Excellent,Fair,Normal,'Always try',Dare,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Eastern,'area quota',Good,Fair,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Eastern,Portfolio,Fair,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Inappropriate
+male,Central,Admissions,Excellent,Excellent,Easy,'Always try',Dare,Sometimes,'Read the book 1 week',medium,Appropriate
+female,Eastern,'area quota',Excellent,Fair,Normal,Sometimes,Sometimes,'Every time','Read the book 1 night','Do not play',Inappropriate
+male,Eastern,'area quota',Good,Good,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Southern,Portfolio,Excellent,Fair,Normal,'Always try',Dare,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Central,Admissions,Excellent,Fair,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Central,Admissions,Good,Good,Normal,Sometimes,Sometimes,Sometimes,'Read book alone',medium,Appropriate
+female,Central,'GoodGrade quota',Good,Fair,'Too Hard',Sometimes,'Not brave','Every time','Tutoring with friends','Do not play',Inappropriate
+male,Central,Admissions,Good,Excellent,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Central,Admissions,Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Appropriate
+female,Central,'GoodGrade quota',Excellent,Excellent,Normal,Sometimes,'Not brave',Never,'Read the book 1 night',medium,Appropriate
+female,Central,'area quota',Good,Unsatisfy,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+male,Central,tcas,Good,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+male,Central,tcas,Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read book alone',medium,Inappropriate
+male,Eastern,'area quota',Good,Fair,Normal,Sometimes,'Not brave',Sometimes,'Read the book 1 night',high,Appropriate
+female,Eastern,'area quota',Good,Good,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Central,'Direct examination',Fair,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read book alone',medium,Inappropriate
+male,Central,O-net,Excellent,Good,Normal,'Always try',Sometimes,Sometimes,'Read book alone',medium,Appropriate
+male,Central,tcas,Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Central,?,Good,Unsatisfy,Normal,Sometimes,Sometimes,Sometimes,'Read book alone',medium,Inappropriate
+female,Central,'GoodGrade quota',Excellent,Excellent,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',high,Appropriate
+male,Eastern,'GoodGrade quota',Good,Good,Normal,'Always try','Not brave','Every time','Read the book 1 week',high,Appropriate
+male,Central,Admissions,Good,Unsatisfy,Normal,Sometimes,Sometimes,Sometimes,'Read book alone',medium,Inappropriate
+male,Central,tcas,Good,Unsatisfy,Normal,'Always try',Sometimes,Never,'Tutoring with friends',medium,Appropriate
+female,Central,Admissions,Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Central,'Direct examination',Fair,Fair,Normal,Sometimes,'Not brave','Every time','Read the book 1 night',medium,Inappropriate
+male,Eastern,'area quota',Good,Good,Normal,Sometimes,Dare,'Every time','Tutoring with friends',medium,Inappropriate
+male,Central,tcas,Excellent,Unsatisfy,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Appropriate
+male,Western,Get-pat,Fair,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Central,O-net,Excellent,Good,'Too Hard',Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Western,'area quota',Good,Good,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Inappropriate
+female,Northeastern,'Direct examination',Excellent,Fair,Normal,Sometimes,Sometimes,'Every time','Read the book 1 night',medium,Inappropriate
+male,Central,'area quota',Fair,Fair,Normal,'Always try',Sometimes,Never,'Tutoring with friends',medium,Inappropriate
+male,Central,Admissions,Fair,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends','Do not play',Inappropriate
+male,Central,'area quota',Good,Fair,Easy,'Always peel friends','Not brave','Every time','Not prepared',high,Appropriate
+female,Central,'Direct examination',Excellent,Fair,Normal,'Always peel friends',Sometimes,Sometimes,'Read the book 1 night','Do not play',Appropriate
+male,Central,'area quota',Good,Unsatisfy,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Appropriate
+male,Central,Portfolio,Unsatisfy,Unsatisfy,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+female,Eastern,Portfolio,Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+female,Eastern,Admissions,Excellent,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+female,Central,Admissions,Excellent,Fair,'Too Hard',Sometimes,'Not brave',Sometimes,'Read the book 1 night',medium,Appropriate
+female,Eastern,'area quota',Good,Fair,'Too Hard',Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Central,Admissions,Fair,Fair,Normal,Sometimes,Sometimes,'Every time','Read the book 1 night',medium,Inappropriate
+female,Central,Admissions,Excellent,Excellent,Normal,Sometimes,Dare,'Every time','Tutoring with friends',medium,Appropriate
+female,Eastern,tcas,Good,Good,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Eastern,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,'Not brave','Every time','Tutoring with friends',medium,Inappropriate
+female,Central,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Northern,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,'Not brave','Every time','Read book alone',medium,Inappropriate
+male,Northern,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,'Not brave','Every time','Read book alone',medium,Inappropriate
+male,Central,'Direct examination',Good,Unsatisfy,'Too Hard',Sometimes,Sometimes,'Every time','Tutoring with friends',high,Inappropriate
+male,Eastern,Admissions,Excellent,Excellent,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+male,Central,Admissions,Excellent,Unsatisfy,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Central,'Direct examination',Excellent,Good,Normal,'Always try',Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+female,Eastern,O-net,Excellent,Fair,Normal,'Always try',Sometimes,Never,'Tutoring with friends',medium,Appropriate
+female,Central,Admissions,Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Central,Admissions,Excellent,Fair,Normal,Sometimes,'Not brave',Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Central,?,Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Inappropriate
+female,Eastern,'GoodGrade quota',Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Appropriate
+male,Western,tcas,Excellent,Unsatisfy,Normal,Sometimes,Sometimes,Sometimes,'Read the book 1 night',medium,Appropriate
+male,Central,tcas,Excellent,Unsatisfy,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Central,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,'Not brave','Every time','Read book alone',medium,Appropriate
+male,Central,'Direct examination',Good,Fair,'Too Hard','Always peel friends',Sometimes,Sometimes,'Read book alone',medium,Inappropriate
+male,Central,Admissions,Good,Good,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Eastern,'area quota',Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Appropriate
+male,Northern,Admissions,Good,Good,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Appropriate
+female,Eastern,'area quota',Excellent,Good,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Appropriate
+female,Central,Admissions,Good,Fair,Normal,'Always try',Dare,'Every time','Read book alone',medium,Inappropriate
+female,Central,'Direct examination',Excellent,Unsatisfy,Normal,'Always try',Sometimes,Sometimes,'Read book alone',medium,Inappropriate
+female,Southern,Portfolio,Good,Fair,Normal,Sometimes,Dare,'Every time','Tutoring with friends',medium,Inappropriate
+female,Eastern,Admissions,Excellent,Good,Normal,'Always try',Sometimes,Sometimes,'Tutoring with friends','Do not play',Appropriate
+female,Central,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,Dare,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Eastern,Portfolio,Excellent,Fair,Normal,'Always try',Dare,Sometimes,'Read book alone',medium,Inappropriate
+female,Northern,tcas,Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Eastern,'area quota',Fair,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+male,Central,'GoodGrade quota',Excellent,Unsatisfy,'Too Hard',Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+male,Central,Admissions,Fair,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',medium,Inappropriate
+female,Northern,tcas,Good,Fair,Normal,Sometimes,Sometimes,'Every time','Read the book 1 night',medium,Inappropriate
+male,Central,Portfolio,Good,Fair,Normal,'Always try',Dare,Sometimes,'Read book alone',medium,Appropriate
+male,Central,Admissions,Good,Good,'Too Hard','Always try',Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Eastern,'GoodGrade quota',Excellent,Fair,Normal,Sometimes,Sometimes,Sometimes,'Read book alone',medium,Appropriate
+female,Central,tcas,Good,Fair,Normal,Sometimes,Sometimes,Sometimes,'Tutoring with friends',medium,Inappropriate
+female,Eastern,Portfolio,Excellent,Fair,Normal,Sometimes,Sometimes,'Every time','Tutoring with friends',high,Inappropriate
+male,Central,Portfolio,Excellent,Unsatisfy,Normal,'Always try','Not brave',Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Central,'Direct examination',Excellent,Fair,Normal,'Always try',Dare,Sometimes,'Read book alone',medium,Inappropriate
+male,Western,Portfolio,Excellent,Unsatisfy,Normal,Sometimes,Dare,'Every time','Read book alone',medium,Inappropriate
+male,Central,'GoodGrade quota',Good,Good,'Too Hard',Sometimes,'Not brave',Sometimes,'Tutoring with friends',medium,Inappropriate
+male,Western,'GoodGrade quota',Good,Fair,'Too Hard',Sometimes,'Not brave',Sometimes,'Tutoring with friends',medium,Inappropriate
